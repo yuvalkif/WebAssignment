@@ -1,0 +1,63 @@
+/*#menu
+{
+	position: fixed;
+	width: 100%;
+	height: 35px;
+	background: white;
+}*/
+
+body { background-color:#DFE1DE; }
+
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  margin: 0;	
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+.section {
+  border: 2px outset #61715A;
+  border-radius: 5px;
+  background-image: url(http://www.missmaryk.com/nimbg3.gif);
+  background-repeat: repeat; 
+  margin:10px;
+  padding: 5px 5px;
+}
+
+
+
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
